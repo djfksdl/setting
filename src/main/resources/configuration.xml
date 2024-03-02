@@ -3,9 +3,9 @@
 <configuration>
 	<typeAliases>
 		<!-- 여기에 alias 사용하여 parameterType, resultType을 짧게 줄인다. -->
+		
 	</typeAliases>
 	<mappers>
-	<!--  -->
 		<mapper resource="mybatis/mappers/changeFileName.xml" />
 		<!-- 여기는 mapper추가하는 자리. mapper이름으로 파일 만들어주기 -->
 	</mappers>
